@@ -1,0 +1,15 @@
+.example {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px;
+}
+
+.header {
+  all: unset;
+  font-size: 2rem;
+}
+
+.container {
+  margin-block: 24px;
+}

@@ -1,0 +1,27 @@
+.button {
+  all: unset;
+
+  background-color: var(--surface-color);
+  color: var(--main-color);
+  font-size: 1.3rem;
+
+  border: 2px solid var(--border-color);
+  border-radius: 20px;
+  padding: 8px 16px;
+
+  cursor: pointer;
+
+  transition:
+    filter,
+    transform ease-in-out 200ms;
+}
+
+.button:hover {
+  filter: brightness(90%);
+  transform: scale(1.05);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--focus-ring-color);
+  outline-offset: 2px;
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "noEmit": true,
+    "isolatedModules": true,
+    "lib": ["dom", "dom.iterable", "ESNext.Array", "ES2019.Object", "ES2021"],
+    "module": "NodeNext",
+    "jsx": "react",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "skipLibCheck": true
+  }
+}

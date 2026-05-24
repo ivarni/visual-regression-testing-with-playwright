@@ -1,0 +1,40 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/roboto-v51-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html,
+body,
+:global(#root) {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  font-size: 16px;
+  font-family: Roboto;
+  background-color: var(--body-bg-color);
+  color: var(--color);
+}
+
+:root {
+  --body-bg-color: black;
+  --color: #cdc0c0;
+  --surface-color: #a6a4a4;
+  --main-color: #1c1717;
+  --border-color: #dccaca;
+  --focus-ring-color: #ff9800;
+
+  @media (prefers-color-scheme: light) {
+    --body-bg-color: white;
+    --color: black;
+    --surface-color: #f9eeee;
+    --main-color: rebeccapurple;
+    --border-color: rebeccapurple;
+    --focus-ring-color: #54380e;
+  }
+}
